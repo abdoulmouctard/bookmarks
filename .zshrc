@@ -3321,3 +3321,20 @@ zrclocal
 # Local variables:
 # mode: sh
 # End:
+
+
+#alias ls=’colorls — light — sort-dirs — report’
+#alias lc=’colorls — tree — light’
+#alias lc=’colorls — tree — light’
+alias l="ls -larth"
+alias tmp="cd ~/tmp"
+alias c=clear
+alias a="php artisan"
+alias sencha="/opt/Sencha/Cmd/sencha"
+alias p="cd ~/Projects && c && l"
+alias python="python3"
+alias pint="./vendor/bin/pint ."
+alias nah="git restore ."
+alias ace="node ace"
+
+source ~/bin/setup-tailwind.sh
